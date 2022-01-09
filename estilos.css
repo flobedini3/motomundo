@@ -1,0 +1,427 @@
+@charset "UTF-8";
+/* Import fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* font-family: 'Roboto', sans-serif; */
+/* Import pages */
+/* Import fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* font-family: 'Roboto', sans-serif; */
+/* Variables inicio */
+/* Fuentes */
+/*paleta de colores*/
+/*sombras*/
+/*bordes*/
+/*tamaños*/
+/* Variables fin */
+/* Import fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* font-family: 'Roboto', sans-serif; */
+/* Variables inicio */
+/* Fuentes */
+/*paleta de colores*/
+/*sombras*/
+/*bordes*/
+/*tamaños*/
+/* Variables fin */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+section.contact {
+  background-image: url(../assets/img/contactimg.png);
+  margin-top: 76px;
+  padding: 30px;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+}
+
+div.index-contacto__titulo {
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+.form-group {
+  color: black;
+}
+
+.btn {
+  box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.199);
+  background-color: blue;
+  color: white;
+  width: 150px;
+}
+
+/* Import fonts */
+/* font-family: 'Roboto', sans-serif; */
+/* Variables inicio */
+/* Fuentes */
+/*paleta de colores*/
+/*sombras*/
+/*bordes*/
+/*tamaños*/
+/* Variables fin */
+/* Main productos */
+div.container--menu {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.card {
+  width: 230px;
+  height: 330px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+}
+
+.container--menu .card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container--menu .card img {
+  height: 160px;
+}
+
+.container--menu .card h4 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.container--menu .card p {
+  padding: 0 1rem;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.container--menu .card a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #349;
+}
+
+/* Import fonts */
+/* font-family: 'Roboto', sans-serif; */
+/* Variables inicio */
+/* Fuentes */
+/*paleta de colores*/
+/*sombras*/
+/*bordes*/
+/*tamaños*/
+/* Variables fin */
+/* Import fonts */
+/* font-family: 'Roboto', sans-serif; */
+/* Variables inicio */
+/* Fuentes */
+/*paleta de colores*/
+/*sombras*/
+/*bordes*/
+/*tamaños*/
+/* Variables fin */
+/* Section Promociones */
+section.container--promos {
+  margin-top: 80px;
+}
+
+.card__promo {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background: white;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.65);
+  margin: 3rem;
+}
+
+.card__promo:before,
+.card__promo:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  background: white;
+  transition: 0.5s;
+  z-index: -1;
+}
+
+.card__promo .img__promo {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  bottom: 1rem;
+  right: 1rem;
+  background: white;
+  transition: 0.5s;
+  z-index: 1;
+}
+
+.card__promo:hover .img__promo {
+  bottom: 5rem;
+}
+
+.card__promo .img__promo img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card__promo .details {
+  position: absolute;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  text-align: center;
+}
+
+.card__promo .details p {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: black;
+}
+
+/* Section Formas de pago */
+h2.forma--pago__titulo {
+  font-size: 24px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+section.forma--pago {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+section.forma--pago div.pago {
+  width: 230px;
+  height: 230px;
+  border-radius: 8px;
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 60px 20px 60px 20px;
+  text-align: center;
+}
+
+img.pays {
+  height: 230px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+li a:hover {
+  background-color: rgba(151, 151, 151, 0.11);
+}
+
+#navbar {
+  color: white;
+}
+
+li.nav-item {
+  padding: 0px 15px 0px 15px;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+#demo {
+  margin-top: 76px;
+}
+
+section.contenedor1 {
+  display: grid;
+  grid-template-areas: "cascos bolsos cubiertas" "cascos indumentaria aceites";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 200px 200px;
+  gap: 10px;
+  margin: 120px;
+}
+
+a.img--main {
+  min-height: 200px;
+  border-radius: 10px;
+}
+
+.cascos {
+  grid-area: cascos;
+  background-image: url(./Assets/img/Fondos/cascoimg.png);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 4px 8px 0 rgba(151, 151, 151, 0.329);
+}
+
+.bolsos {
+  grid-area: bolsos;
+  background-image: url(./Assets/img/Fondos/valijaimg.png);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 4px 8px 0 rgba(151, 151, 151, 0.329);
+}
+
+.cubiertas {
+  grid-area: cubiertas;
+  background-image: url(./Assets/img/Fondos/cubiertaimg.png);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 4px 8px 0 rgba(151, 151, 151, 0.329);
+}
+
+.indumentaria {
+  grid-area: indumentaria;
+  /* opacity: 0.5; */
+  background-image: url(./Assets/img/Fondos/indumentariaimg.png);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 4px 8px 0 rgba(151, 151, 151, 0.329);
+}
+
+.aceites {
+  grid-area: aceites;
+  background-image: url(./Assets/img/Fondos/aceiteimg.png);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 4px 8px 0 rgba(151, 151, 151, 0.329);
+}
+
+.btn-wsp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  bottom: 30px;
+  right: 30px;
+  background: #0df053;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+.btn-wsp:hover {
+  text-decoration: none;
+  color: #0df053;
+  background: #fff;
+}
+
+/* footer */
+footer {
+  background-color: black;
+  display: flex;
+  min-height: 150px;
+  width: 100%;
+  bottom: 0;
+  color: white;
+  text-align: center;
+  flex-direction: column;
+}
+
+p.contacto {
+  font-size: 16px;
+  padding: 10px;
+}
+
+div.redes {
+  font-size: 16px;
+  padding: 10px;
+}
+
+div.redes a {
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width: 767px) {
+  /* Navbar */
+  .logo--web {
+    display: none;
+  }
+
+  /* Main index*/
+  #demo {
+    display: none;
+  }
+
+  section.contenedor1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 88px;
+    margin: 0;
+    margin-top: 70px;
+    padding: 10px;
+  }
+
+  .cascos {
+    background-image: url(./Assets/img/Fondos/cascochico.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 8px 0 rgba(151, 151, 151, 0.329);
+  }
+
+  /* Footer */
+  footer {
+    display: flex;
+    width: 100%;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  p.contacto {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  div.redes {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  div.redes a {
+    text-decoration: none;
+    color: white;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .logo--cel {
+    display: none;
+  }
+
+  footer {
+    padding: 20px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
